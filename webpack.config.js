@@ -35,7 +35,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(buildDir),
         new HtmlWebpackPlugin({
-            filename: 'page.html',
+            filename: 'index.html',
             template: './app/templates/page.hbs',
             data: require('./app/data/data.json')
         }),
